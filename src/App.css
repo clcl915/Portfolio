@@ -1,5 +1,132 @@
+html, body {
+  margin:0;
+  padding:0;
+  height:100%; 
+} 
 .App {
+  font-family: serif;
+  width:100%;
+  height:100%;
+  position: fixed;
+  position:absolute; 
+  display:block;
+  background-image: url(https://cdn.wallpapersafari.com/99/55/fKegz9.png);
+  /* url("http://minimalwallpaper.weebly.com/uploads/5/2/3/4/52342127/7598806.png?735"); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+.heading{
+  display: flex;
+  flex-direction: row; 
+  margin:5px;
+  margin-top:0;
+  height:80px;
+}
+.name{
+  width:45%;
+  font-size:20px;
+}
+.components{
+  display: flex;
+  flex-direction: row; 
+  width:60%;
+  font-size: 16px;
+  
+}
+.single {
+  margin:10px;
+}
+.personal{
   text-align: center;
+}
+.personal:hover{
+  cursor: pointer;
+  color: #E6E6E6;
+}
+.prototype:hover{
+  cursor: pointer;
+  color: #E6E6E6;
+}
+.research:hover{
+  cursor: pointer;
+  color: #E6E6E6;
+}
+.project:hover{
+  cursor: pointer;
+  color: #E6E6E6;
+}
+.fw:hover{
+  cursor: pointer;
+  color: #E6E6E6;
+}
+#pp{
+  display: block;
+  margin: 0 auto;
+  width:60%;
+  min-width:700px;
+  /* height:30%; */
+}
+.main{
+  padding:5px;
+  padding-top: 0;
+  color:white;
+}
+p{
+  font-size:19px;
+}
+h2{
+  font-size:24px;
+}
+.research{
+  overflow: hidden;
+}
+.researchdiv{
+  display: flex;
+  position: absolute;
+  
+  flex-direction: row;
+  overflow: scroll;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+#imgntxt{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+}
+#blocktxt{
+  display: block;
+  margin-left: 10px;
+  height:400px;
+  min-width:400px;
+   /* overflow-y: auto;
+  overflow-x: hidden; */
+}
+#vid{
+  height:630px;
+  width:40%;
+}
+#prototypevid{
+  width:600px;
+  height:630px;
+  display: block;
+  margin: 0 auto;
+}
+
+#initpage{
+  text-align: center;
+}
+
+#cindy{
+  border-radius: 50%;
+  width:350px;
+ 
+  /* height:200px; */
 }
 
 .App-logo {
